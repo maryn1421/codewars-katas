@@ -21,7 +21,7 @@ return n * m - 1;}
 }
 ````
 
-##### javascript
+##### javascript:
 
 
 ````javascript
@@ -32,4 +32,16 @@ function breakChocolate(n,m) {
     return n *m -1;
   }
 }
+````
+
+
+##### python:
+
+
+````python
+def breakChocolate(n, m):
+    if n == 0 or m == 0:
+        return 0
+    else:
+        return n * m - 1
 ````
