@@ -23,7 +23,6 @@ class CountingDuplicates {
         Map<Character, Integer> appears = new HashMap<>();
         int result = 0;
         text = text.toLowerCase();
-
         for (char character : text.toCharArray()) {
             int appear = 0;
             for (char char2 : text.toCharArray()) {
